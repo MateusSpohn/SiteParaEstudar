@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(46, 49, 58);
+    color: white;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(28, 29, 35);
+    color: white;
+    padding: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 15px;
+}
+
+main{
+    background-color: rgb(46, 49, 58);
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(28, 29, 35);
+    color: white;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 15px;
+}
+
+#Opcoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Opcao{
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 15px;
+    color: white;
+}
+
+.Opcao:hover{
+    background-color: rgb(46, 49, 58);
+    opacity: 0.6;
+}
+
+.Voltar{
+    color: white;
+}
+
+.Voltar:hover{
+    color:blueviolet;
+}
+
+.TituloItensCSS{
+    text-align: center;
+    font-size: 20px;
+}
+
+.ItensCSS{
+    border-width: 3px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 15px;
+    margin: 10px;
+}
